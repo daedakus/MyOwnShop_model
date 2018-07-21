@@ -1,0 +1,58 @@
+*
+{
+	margin:0;
+	height:0;
+
+}
+
+html,body
+{
+	height: 100%;
+	width:100%;
+}
+
+#wrapper_cart
+{
+	position: absolute;
+	left:20%;
+	top:10%;
+	width: 50%;
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;
+
+	justify-content: center;
+	align-content:;
+}
+
+	#header_cart
+	{
+		height: 40%;
+		width: 100%;
+
+		background: grey;
+	}
+
+	#mainContent_cart
+	{
+		height: 80%;
+		width: 100%;
+
+		background: yellow;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+		.image_addedItem
+		{
+			width: 40%;
+		}
+
+		.dataItem
+		{
+
+		}
+

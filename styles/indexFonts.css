@@ -1,0 +1,74 @@
+li a
+{
+	font-size: 150%;
+}
+
+.filter_button
+{
+  color:rgba(80,80,80);
+	font-size: 180%;
+font-family: "AQUA",cursive;
+}
+
+#banner
+{
+  position: absolute;
+  margin-top: 0%;
+  font-size: 330%;
+  font-family: "AQUA",cursive;
+  color:ivory;
+}
+
+#pointer_cart /*FOnts*/
+    {
+      font-family: 'Lobster', cursive;
+             color:#fefdfe;
+    }
+
+.text_blockType1
+{
+	font-size: 280%;
+	color:#877a79;
+	font-family: 'Lobster', cursive;
+
+	font-family: 'Shrikhand', cursive
+	font-family: 'Shrikhand', cursive
+}
+
+.name_itemCard  /*Fonts*/
+      {
+        font-size:250%;
+        font-family: "AQUA",sans-serif;
+        color:white;
+      }
+
+.content_itemCard /*Fonts*/
+      {
+        font-size:100%;
+        font-family: "Arapey",sans-serif;
+        color:rgba(240,240,240);
+      }
+
+      .buttons_itemCard /*fonts*/  
+            {
+              font-size:100%;
+              font-family: "Fredoka One",cursive;
+              color:#fefdfe;
+              
+            }
+
+       .price
+        {
+          font-size: 110%;
+          color:#fefdfe;
+
+        }
+
+        .activated
+        {
+        	font-size:150%;
+        	color:orange;
+            
+        }
+/*font-family: 'Lobster', cursive;
+font-family: 'Shrikhand', cursive*/

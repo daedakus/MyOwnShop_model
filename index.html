@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MyOwnShop</title>
+	<link href="./styles/index.css" rel="stylesheet" type="text/css">
+	<link href="./styles/indexFonts.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster|Shrikhand" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <link href="./styles/addingwindow.css" rel="stylesheet" type="text/css">
+    <link href="./styles/newitem.css" rel="stylesheet" type="text/css">
+    <link href="./styles/menu.css" rel="stylesheet">
+
+    <script type="text/javascript" src="./script/globals.js"></script>
+    <script type="text/javascript" src="./script/block_newitem.js"></script>
+    <script type="text/javascript" src="./script/functions.js"></script>
+    <script type="text/javascript" src="./script/onload_script.js"></script>
+    <script type="text/javascript" src="./script/createNewItem.js"></script>
+
+  	
+  
+</head>
+<body>
+<div id="pageControlPanel">
+
+	<img id="arrowPage_left" src="./materials/svg/arrowPage_left.svg">
+
+	<img id="arrowPage_right" src="./materials/svg/arrowPage_right.svg">
+
+</div>
+<div id="wrapper">
+	<header id="mainHeader">
+		
+			<div id="banner">
+				<span>MyOwnShop</span>
+			</div>
+
+			<div id="profile_card">
+
+        	 <object data="./materials/svg/profile_card.svg" id="card">Profile card
+         	 </object>
+         	</div>
+         	 <div id="block_cart">
+         	 	<div id="pointer_cart"><span  id="span_pointer_cart">0</span></div>
+         	 	<img id="cart" src="./materials/svg/cart.svg">
+         	 </div>
+
+      	    
+      	<div id="menu_banner">MENU</div>
+
+       		<div id="wrapper_menu">
+				<div id="cart_menu"><span>My Cart</span></div>
+
+				<div id="profile_menu"><span>Profile</span></div>
+		
+				<div id="about_menu"><span>About</span></div>
+			</div>
+
+         
+		
+		 
+		<div id="main_menu">
+           <ul>
+           		<li><a href="#">Profile</a></li>
+           		<li><a href="#">Cart</a></li>
+           		<li><a href="#">About</a></li>
+           </ul>
+		</div>
+	  
+	</header>
+	<barside id="mainSidebar"></barside>
+	<content id="mainContent">
+		<div id="filter_search">
+ 			<form id="form_filter_search">
+ 			   <div id="by_block">
+               		<input type="button" value="By price |" id="byprice_button" class="filter_button">
+               		<input type="button" value="| By name" id="byname_button" class="filter_button">
+               </div>
+
+               <div id="order_block">
+               		<input type="button" value="Desc" id="dec_button" class="filter_button">
+               		<input type="button" value="Asc" id="inc_button" class="filter_button">
+               </div>
+ 			</form>
+		</div>
+
+		<div id="goods_view">
+
+			
+
+
+           
+		</div>
+
+	</content>
+	
+	<footer id="mainFooter"></footer>
+</div>
+
+<div id="addingWindow">
+	<div class="title">
+		<span id="text">Adding new item</span>
+        <img src="./materials/svg/X.svg" id="cross">
+	</div>
+	<div class="content">
+		<span class="text">Enter needed information:</span>
+		<form id="form_addingWindow" name="form_addingWindow" onsubmit="return false;">
+			<div class="block_srcIMG fieldAddingWindow" >
+				<lable for="srcIMG">URL to front-card image:</lable>
+				<input id="srcIMG"  placeholder="http://www...">
+		 	</div>
+
+		 	<div class="block_nameItem fieldAddingWindow">
+		 		<lable for="nameItem">Name of item:</lable>
+		 		<input id="nameItem" maxlength="10" placeholder="Name">
+		 	</div>
+
+		 	<div class="fieldAddingWindow">
+		 		<lable for="priceItem">Price of item:</lable>
+		 		<input id="priceItem"  placeholder="1$">
+		 	</div>
+
+		 	<div class="block_descriptionItem fieldAddingWindow">
+		 		<lable for="descriptionItem">Short Description:</lable> 
+		 		<textarea id="descriptionItem" rows="3" cols="50" maxlength="120" wrap="hard"placeholder="Abc.."></textarea>
+		 	</div>
+
+		 	<div class="block_buttonsAddingWindow">
+		 		<input type="reset" value="Clear Fields" id="button_ClearItem" name="button_ClearItem" class="buttonsAddingWindow">
+		 		<input type="submit" value="Add Item" autofocus id="button_AddItem"  class="buttonsAddingWindow">
+		 	</div>
+
+
+</form>
+
+
+		</form>
+	</div>
+</div>
+</body>
+</html>
